@@ -20,7 +20,7 @@ I also maintain a strong interest in **Robotics** and **System Programming** usi
 
 ### Backend Frameworks
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Crow](https://img.shields.io/badge/Crow-C%2B%2B%20Web%20Framework-blue?style=for-the-badge&logo=cplusplus&logoColor=white)
+![CrowCpp](https://img.shields.io/badge/Crow_Cpp-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)
