@@ -2,9 +2,9 @@
 
 ## 🚀 Backend Engineer
 
-I build backend systems, APIs, and AI-ready applications.
+I build backend systems, APIs, and scalable web applications.
 
-Currently working mainly with **Flask + Python**, while expanding into **C# ASP.NET**.
+Currently focused on **Flask**, while actively learning **Node.js + Express** for modern backend development.
 
 I also maintain a strong interest in **Robotics** and **System Programming** using **C++**.
 
@@ -15,10 +15,11 @@ I also maintain a strong interest in **Robotics** and **System Programming** usi
 ### Backend
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![CSharp](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
 ### Frontend Collaboration
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -35,17 +36,17 @@ I also maintain a strong interest in **Robotics** and **System Programming** usi
 ## 💡 About Me
 
 - 🔭 Building backend systems and APIs
-- 🌱 Learning ASP.NET and modern backend architecture
-- 🤖 Interested in AI systems and Robotics
-- 🧠 Strong interest in scalable systems and software engineering
+- 🌱 Currently learning Node.js & Express
+- 🤖 Interested in Robotics and AI systems
+- 🧠 Strong interest in scalable backend architecture
 - 🚀 Participated in hackathons and collaborative projects
+- ⚡ Backend-focused developer who enjoys building real systems
 
 ---
 
 # 👨‍💻 Backend Engineer — In Different Languages
 
 ### 🐍 Python + Flask
-
 ```python
 from flask import Flask, jsonify
 
@@ -64,46 +65,8 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-### ⚡ C#
-
-```cs
-using System;
-
-class BackendEngineer
-{
-    static void Main()
-    {
-        Console.WriteLine("Hi, I'm Goodluck.");
-        Console.WriteLine("Backend Engineer building scalable systems.");
-        Console.WriteLine("Currently working with Flask and learning ASP.NET.");
-    }
-}
-```
-
-### ⚙️ C++
-
-```cpp
-#include <iostream>
-using namespace std;
-
-class BackendEngineer {
-public:
-    void introduce() {
-        cout << "Goodluck - Backend Engineer" << endl;
-        cout << "Interested in Robotics and System Programming" << endl;
-    }
-};
-
-int main() {
-    BackendEngineer dev;
-    dev.introduce();
-    return 0;
-}
-```
-
 ### 🚂 Node.js + Express
-
-```js
+```javascript
 const express = require('express');
 const app = express();
 app.use(express.json());
@@ -121,8 +84,50 @@ app.listen(3000, () => {
 });
 ```
 
+## ⚡ ASP.NET
+
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+app.MapGet("/", () => new {
+    name = "Goodluck",
+    role = "Backend Engineer",
+    stack = new[] { "ASP.NET", "C#", "APIs" }
+});
+
+app.Run();
+```
+
+## ⚙️ C++ + Crow
+
+```cpp
+#include "crow.h"
+
+int main()
+{
+    crow::SimpleApp app;
+
+    CROW_ROUTE(app, "/")([](){
+        return crow::json::wvalue({
+            {"name", "Goodluck"},
+            {"role", "Backend Engineer"},
+            {"stack", "C++ | Crow | APIs"}
+        });
+    });
+
+    app.port(18080).multithreaded().run();
+}
+```
+
+---
+
 ### 🌍 Connect With Me
 
 - X (Twitter): @goodluckdev
 - Instagram: @goodluck_dev
 - Dev.to: goodluckdev
+
+---
+
+> "Backend developers quietly power the internet."
