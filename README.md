@@ -88,7 +88,7 @@ app.listen(3000, () => {
 });
 ```
 
-## ⚡ ASP.NET
+### ⚡ ASP.NET
 
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
@@ -103,7 +103,7 @@ app.MapGet("/", () => new {
 app.Run();
 ```
 
-## ⚙️ C++ + Crow
+### ⚙️ C++ + Crow
 
 ```cpp
 #include "crow.h"
@@ -128,9 +128,9 @@ int main()
 
 ### 🌍 Connect With Me
 
-- X (Twitter): @goodluckdev
-- Instagram: @goodluck_dev
-- Dev.to: goodluckdev
+- X (Twitter): [@goodluckdev](https://x.com/goodluckdev)
+- Instagram: [@goodluck_dev](https://instagram.com/goodluck_dev)
+- Dev.to: [goodluckdev](https://dev.to/goodluckdev)
 
 ---
 
